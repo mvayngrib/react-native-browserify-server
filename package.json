@@ -1,6 +1,6 @@
 {
   "name": "react-native-browserify-server",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Build React Native apps with browserify",
   "main": "lib/Server.js",
   "repository": {
@@ -15,7 +15,7 @@
     "browserify"
   ],
   "license": "MIT",
-  "bin": "./bin/react-native-browserify-server.js",
+  "bin": "./bin/cmd.js",
   "files": [
     "bin",
     "hot",
@@ -25,7 +25,10 @@
   ],
   "peerDependencies": {
     "react-hot-loader": ">=1.2.4",
-    "react-native": ">=0.4.3 <0.5.0 || 0.6.0-rc || >=0.6.0"
+    "react-native": ">=0.4.3 <0.5.0 || 0.6.0-rc || >=0.6.0",
+    "beefy": "^2.1.5",
+    "browserify": "^10.2.4",
+    "watchify": "^3.2.3"
   },
   "dependencies": {
     "bluebird": "^2.9.24",

@@ -1,6 +1,8 @@
 # React Native and Browserify
 
-_originally a fork of _
+_originally a fork of [React Native Webpack Server](https://github.com/mjohnston/react-native-webpack-server)_
+
+NOTE: you may have to increase your open file limit (for watchify)
 
 React Native Browserify Server is a development server that leverages [beefy](https://github.com/chrisdickinson/beefy) and the [React Packager](https://github.com/facebook/react-native/tree/master/packager) to enable building React Native JavaScript bundles with browserify. This allows you to use the existing browserify ecosystem when targeting React Native.
 
