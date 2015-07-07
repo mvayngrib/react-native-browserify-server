@@ -1,26 +1,21 @@
 {
-  "name": "react-native-webpack-server",
+  "name": "react-native-browserify-server",
   "version": "0.2.2",
-  "description": "Build React Native apps with Webpack",
+  "description": "Build React Native apps with browserify",
   "main": "lib/Server.js",
-  "author": {
-    "name": "Michael Johnston",
-    "email": "mjohnston16@gmail.com",
-    "url": "https://github.com/mjohnston"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mjohnston/react-native-webpack-server.git"
+    "url": "https://github.com/mvayngrib/react-native-browserify-server.git"
   },
   "bugs": {
-    "url": "https://github.com/mjohnston/react-native-webpack-server/issues"
+    "url": "https://github.com/mvayngrib/react-native-browserify-server/issues"
   },
   "keywords": [
     "react-native",
-    "webpack"
+    "browserify"
   ],
   "license": "MIT",
-  "bin": "./bin/react-native-webpack-server.js",
+  "bin": "./bin/react-native-browserify-server.js",
   "files": [
     "bin",
     "hot",
@@ -30,9 +25,7 @@
   ],
   "peerDependencies": {
     "react-hot-loader": ">=1.2.4",
-    "react-native": ">=0.4.3 <0.5.0 || 0.6.0-rc || >=0.6.0",
-    "webpack": ">=1.8.4",
-    "webpack-dev-server": ">=1.8.0"
+    "react-native": ">=0.4.3 <0.5.0 || 0.6.0-rc || >=0.6.0"
   },
   "dependencies": {
     "bluebird": "^2.9.24",
